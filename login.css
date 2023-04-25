@@ -1,0 +1,95 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+img {
+        height: 84.48px;
+        width: 240px;
+}
+
+.main {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        height: 80vh;
+        background-color: #f0f2f2f5;
+}
+
+body{
+        font-family: Helvetica, sans-serif;
+}
+
+.box1 {
+        width: 240px;
+        height: 84.48px;
+}
+
+.box2 {
+        background-color: #fff;
+        border: none;
+        border-radius: 13px solid rgb(107, 101, 101);
+        border-radius: 11px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 398px;
+        height: 314px;
+        gap: 10px;
+        box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+.login{
+        font-size: 1rem;
+        margin: 20px 0 10px 0;
+}
+
+input{
+        width: 85%;
+        height: 50px;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 8px;
+        font-size: 16px;
+        color: rgba(0,0,0,0.5);
+        outline-style: none;
+        padding-left: 20px;
+        font-weight: lighter;
+}
+
+button{
+        width: 90%;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(71, 71, 241);
+        color: white;
+        font-size: large;
+        font-weight: bold;
+}
+
+.aa{
+        display: flex;
+        flex-direction: row;
+}
+
+a{
+        text-decoration: none;
+        font-size: 14px;
+        margin: 10px;
+        padding: 0;
+        color: rgb(68, 68, 241);
+}
+
+button:hover{
+        background-color: rgb(53, 53, 219);
+}
+
+a:hover{
+        text-decoration: underline;
+}
+
+input:hover{
+        color: rgb(0, 0, 0,0.2);
+}
